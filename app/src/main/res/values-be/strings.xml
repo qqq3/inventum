@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">Не ўдаецца падключыцца да Інтэрнэту</string>
+    <string name="in_theaters">У кінатэатрах</string>
+    <string name="on_tv">Па ТБ</string>
+    <string name="donation_bitcoin_copy_message">Bitcoin адрас быў скапіяваны ў буфер абмену</string>
+    <string name="donation_bitcoin_open_app">Адкрыць Bitcoin дадатак</string>
+    <string name="donation_bitcoin_copy_button">Скапіяваць Bitcoin адрас</string>
+
+    <string name="more">Яшчэ</string>
+    <string name="cancel">Адмена</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_menu_home">Галоўная</string>
+    <string name="nav_menu_movies">Фільмы</string>
+    <string name="nav_menu_tv">Серыялы</string>
+    <string name="nav_menu_celebs">Знакамітасці</string>
+    <string name="nav_menu_discover">Агляд</string>
+    <string name="nav_menu_settings">Налады</string>
+    <string name="nav_menu_feedback">Зваротная сувязь</string>
+    <string name="nav_menu_donate">Ахвяраваць Bitcoin</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_home">Галоўная</string>
+    <string name="title_activity_movies">Фільмы</string>
+    <string name="title_activity_tv">Серыялы</string>
+    <string name="title_activity_discover">Агляд</string>
+    <string name="title_activity_search">Пошук</string>
+    <string name="title_activity_settings">Налады</string>
+    <string name="title_activity_about">Аб дадатку</string>
+
+    <string name="menu_item_update">Абнавіць</string>
+
+    <!-- Search activity strings -->
+    <string name="search_hint">Пошук</string>
+
+    <!-- Tabs strings -->
+    <string name="popular">Папулярные</string>
+    <string name="upcoming">Хутка</string>
+    <string name="now_playing">Зараз</string>
+    <string name="airing_today">Сёння на ТБ</string>
+
+    <!-- Details activity strings -->
+    <string name="details_runtime">%1$sг %2$sх</string>
+    <string name="details_episode_runtime">%sх</string>
+    <string name="details_rating_title">Рэйтінг TMDb</string>
+    <string name="details_facts_title">Факты</string>
+    <string name="details_release_date_title">Дата выхаду</string>
+    <string name="details_status_title">Статус</string>
+    <string name="details_imdb_page_title">Старонка IMDb</string>
+    <string name="detail_homepage_title">Хатняя старонка</string>
+    <string name="details_budget_title">Бюджэт............................................................................................................................</string>
+    <string name="details_revenue_title">Даход..........................................................................................................................</string>
+    <string name="details_budget_revenue_title">Бюджэт і даходы</string>
+    <string name="details_born_title">Дата нараджэння</string>
+    <string name="details_died_title">Дата смерці</string>
+    <string name="details_network_title">Тэлекампанія</string>
+
+    <!-- Preferences strings -->
+    <string name="pref_title_app_language">Мова праграмы</string>
+    <string name="pref_title_clear_cache">Ачысціць кэш малюнкаў</string>
+    <string name="pref_title_about">Аб дадатку</string>
+    <string name="pref_summary_cache_size">Памер кэша %.2fMB</string>
+
+    <!-- Dialogs strings -->
+    <string name="restart_dialog_message">Калі ласка, перазапусціце праграму, каб скарыстацца новымі наладамі</string>
+    <string name="clear_cache_message_ok">Кэш ачышчаны</string>
+    <string name="clear_cache_message_fail">Кэш ня быў ачышчаны</string>
+    <string name="genres_dialog_title">Жанры</string>
+
+    <!-- Genres list -->
+    <string name="genre_action">баявік</string>
+    <string name="genre_adventure">прыгоды</string>
+    <string name="genre_animation">мультфільм</string>
+    <string name="genre_comedy">камедыя</string>
+    <string name="genre_crime">крымінал</string>
+    <string name="genre_documentary">дакументальны</string>
+    <string name="genre_drama">драма</string>
+    <string name="genre_family">сямейны</string>
+    <string name="genre_fantasy">фэнтэзі</string>
+    <string name="genre_history">гісторыя</string>
+    <string name="genre_horror">жахі</string>
+    <string name="genre_music">музыка</string>
+    <string name="genre_mystery">дэтэктыў</string>
+    <string name="genre_romance">меладрама</string>
+    <string name="genre_science_fiction">фантастыка</string>
+    <string name="genre_tv_movie">тэлевізійны фільм</string>
+    <string name="genre_thriller">трылер</string>
+    <string name="genre_war">ваенны</string>
+    <string name="genre_western">вестэрн</string>
+
+    <!-- Sort list -->
+    <string name="title_popularity_desc">Папулярныя па змяншэнні</string>
+    <string name="title_popularity_asc">Папулярныя па ўзрастанні</string>
+    <string name="title_rating_desc">Рэйтынг па змяншэнні</string>
+    <string name="title_rating_asc">Рэйтынг па ўзрастанні</string>
+    <string name="title_release_date_desc">Дата выхаду па змяншэнні</string>
+    <string name="title_release_date_asc">Дата выхаду па ўзрастанні</string>
+
+    <!-- Discover strings -->
+    <string name="discover_type">Тып</string>
+    <string name="discover_genres">Жанры</string>
+    <string name="discover_sort">Сартаванне па</string>
+    <string name="discover_any_genres">любы</string>
+    <string name="discover_minimum_rating">Мінімальны рэйтынг</string>
+
+    <!-- About strings -->
+    <string name="about_app_info">
+        <![CDATA[
+            <p>Зыходны код даступны на <a href="https://github.com/qqq3/in-movie">GitHub (github.com/qqq3/in-movie)</a></p>
+        ]]>
+    </string>
+    <string name="about_libraries_title">Бібліятэкі &amp; рэсурсы</string>
+    <string name="about_license_title">Ліцензія</string>
+    <string name="top_rated">Топ</string>
+    <string name="show_movies">Паказаць фільмы</string>
+    <string name="pref_title_movies_language">Мова фільмаў</string>
+</resources>
