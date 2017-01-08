@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="network_error">Не удается подключится к Интернету</string>
+    <string name="in_theaters">В кинотеатрах</string>
+    <string name="on_tv">На ТВ</string>
+    <string name="detail_homepage_title">Домашняя страница</string>
+    <string name="cancel">Отмена</string>
+    <string name="clear_cache_message_fail">Кэш не был очищен</string>
+    <string name="clear_cache_message_ok">Кэш очищен</string>
+    <string name="details_born_title">Дата рождения</string>
+    <string name="nav_menu_donate">Пожертвовать Bitcoin</string>
+    <string name="nav_menu_home">Главная</string>
+    <string name="nav_menu_movies">Фильмы</string>
+    <string name="nav_menu_settings">Настройки</string>
+    <string name="nav_menu_tv">Сериалы</string>
+    <string name="pref_title_about">О приложении</string>
+    <string name="pref_title_clear_cache">Очистить кэш изображений</string>
+    <string name="pref_title_app_language">Язык приложения</string>
+    <string name="restart_dialog_message">Пожалуйста, перезапустите приложение, чтобы применить новые настройки</string>
+    <string name="search_hint">Поиск</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="title_activity_tv">Сериалы</string>
+    <string name="title_activity_search">Поиск</string>
+    <string name="title_activity_movies">Фильмы</string>
+    <string name="title_activity_home">Главная</string>
+    <string name="title_activity_discover">Обзор</string>
+    <string name="title_activity_about">О приложении</string>
+    <string name="pref_summary_cache_size">Размер кэша %.2fMB</string>
+    <string name="nav_menu_feedback">Обратная связь</string>
+    <string name="nav_menu_discover">Обзор</string>
+    <string name="nav_menu_celebs">Знаменитости</string>
+    <string name="more">Ещё</string>
+    <string name="menu_item_update">Обновить</string>
+    <string name="genres_dialog_title">Жанры</string>
+    <string name="donation_bitcoin_open_app">Открыть Bitcoin приложение</string>
+    <string name="donation_bitcoin_copy_message">Bitcoin адрес добавлен в буфер обмена</string>
+    <string name="donation_bitcoin_copy_button">Скопировать Bitcoin адрес</string>
+    <string name="discover_type">Тип</string>
+    <string name="discover_sort">Сортировать по</string>
+    <string name="discover_minimum_rating">Минимальный рейтинг</string>
+    <string name="discover_genres">Жанры</string>
+    <string name="discover_any_genres">любые</string>
+    <string name="details_status_title">Статус</string>
+    <string name="details_runtime">%1$sч %2$sм</string>
+    <string name="details_revenue_title">Доход..........................................................................................................................</string>
+    <string name="details_release_date_title">Дата выхода</string>
+    <string name="details_rating_title">Рейтинг TMDb</string>
+    <string name="details_network_title">Телекомпания</string>
+    <string name="details_imdb_page_title">Страница IMDb</string>
+    <string name="details_facts_title">Факты</string>
+    <string name="details_episode_runtime">%sм</string>
+    <string name="details_died_title">Дата смерти</string>
+    <string name="details_budget_title">Бюджет............................................................................................................................</string>
+    <string name="details_budget_revenue_title">Бюджет и доходы</string>
+
+    <!-- Genres list -->
+    <string name="genre_action">боевик</string>
+    <string name="genre_adventure">приключения</string>
+    <string name="genre_animation">мультфильм</string>
+    <string name="genre_comedy">комедия</string>
+    <string name="genre_crime">криминал</string>
+    <string name="genre_documentary">документальный</string>
+    <string name="genre_drama">драма</string>
+    <string name="genre_family">семейный</string>
+    <string name="genre_fantasy">фэнтези</string>
+    <string name="genre_history">история</string>
+    <string name="genre_horror">ужасы</string>
+    <string name="genre_music">музыка</string>
+    <string name="genre_mystery">детектив</string>
+    <string name="genre_romance">мелодрама</string>
+    <string name="genre_science_fiction">фантастика</string>
+    <string name="genre_tv_movie">телевизионный фильм</string>
+    <string name="genre_thriller">триллер</string>
+    <string name="genre_war">военный</string>
+    <string name="genre_western">вестерн</string>
+
+    <!-- Tabs strings -->
+    <string name="popular">Популярные</string>
+    <string name="top_rated">Топ</string>
+    <string name="upcoming">Скоро</string>
+    <string name="now_playing">Сейчас</string>
+    <string name="airing_today">Сегодня на ТВ</string>
+
+    <!-- About strings -->
+    <string name="about_app_info">
+        <![CDATA[
+            <p>Исходный код доступен на <a href="https://github.com/qqq3/in-movie">GitHub (github.com/qqq3/in-movie)</a></p>
+        ]]>
+    </string>
+    <string name="about_libraries_title">Используемые библиотеки и ресурсы</string>
+    <string name="about_license_title">Лицензия</string>
+    <string name="show_movies">Показать фильмы</string>
+    <string name="title_popularity_asc">Популярные по возрастанию</string>
+    <string name="title_popularity_desc">Популярные по убыванию</string>
+    <string name="title_rating_desc">Рейтинг по убыванию</string>
+    <string name="title_rating_asc">Рейтинг по возрастанию</string>
+    <string name="title_release_date_asc">Дата выхода по возрастанию</string>
+    <string name="title_release_date_desc">Дата выхода по убыванию</string>
+    <string name="pref_title_movies_language">Язык фильмов</string>
+
+</resources>
