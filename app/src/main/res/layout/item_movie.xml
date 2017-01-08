@@ -1,0 +1,105 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/movie.root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+            android:id="@+id/movie.position_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/movie.position"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:background="@color/titleBackground"
+                android:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingRight="@dimen/activity_vertical_margin"
+                android:textSize="14sp"
+                tools:text="1"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider"/>
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/movie.poster"
+            android:layout_width="70dp"
+            android:layout_height="95dp"
+            android:layout_below="@id/movie.position_view"
+            android:scaleType="centerInside"
+            tools:src="@drawable/background_reel"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie.position_view"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_padding"
+            android:paddingBottom="@dimen/activity_vertical_padding"
+            android:layout_toRightOf="@id/movie.poster"
+            android:layout_toEndOf="@id/movie.poster">
+
+        <TextView
+                android:id="@+id/movie.name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="The Shawshank Redemption"/>
+
+        <TextView
+                android:id="@+id/movie.original_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_padding"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="14sp"
+                android:textColor="@color/subtitle_grey"
+                tools:text="The Shawshank Redemption (1994)"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_padding"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/movie.vote_average"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="14sp"
+                    android:textColor="@color/vote_average_color"
+                    android:textStyle="bold"
+                    android:layout_marginRight="@dimen/activity_vertical_margin"
+                    tools:text="8.4"/>
+
+            <TextView
+                    android:id="@+id/movie.vote_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/subtitle_grey"
+                    tools:text="405"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout>

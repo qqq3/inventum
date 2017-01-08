@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item name="default">System Default</item>
+        <item name="english">English</item>
+        <item name="belarusian">Беларуская</item>
+        <item name="russian">Русский</item>
+    </string-array>
+    <string-array name="languagesValues">
+        <item name="default"></item>
+        <item name="english">en_GB</item>
+        <item name="belarusian">be_BY</item>
+        <item name="russian">ru_RU</item>
+    </string-array>
+
+    <string-array name="moviesLanguages">
+        <item name="default">System Default</item>
+        <item name="albanian">Shqip</item>
+        <item name="arabic">العربية</item>
+        <item name="basque">Euskara</item>
+        <item name="belarusian">Беларуская</item>
+        <item name="bosnian">Bosanski</item>
+        <item name="bulgarian">Български</item>
+        <item name="catalan">Català</item>
+        <item name="chinese">中文</item>
+        <item name="chinese">文言</item>
+        <item name="czech">Čeština</item>
+        <item name="danish">Dansk</item>
+        <item name="dutch">Nederlands</item>
+        <item name="english">English</item>
+        <item name="esperanto">Esperanto</item>
+        <item name="estonian">Eesti</item>
+        <item name="finnish">Suomi</item>
+        <item name="french">Français</item>
+        <item name="german">Deutsch</item>
+        <item name="greek">Ελληνικά</item>
+        <item name="hebrew">עברית</item>
+        <item name="hindi">हिन्दी</item>
+        <item name="hungarian">Magyar</item>
+        <item name="irish">Gaeilge</item>
+        <item name="italian">Italiano</item>
+        <item name="japanese">日本語</item>
+        <item name="korean">韓國語</item>
+        <item name="latvian">Latviešu</item>
+        <item name="lithuanian">Lietuvių</item>
+        <item name="norwegian">Norsk bokmål</item>
+        <item name="polish">Polski</item>
+        <item name="portuguese">Português</item>
+        <item name="romanian">Română</item>
+        <item name="russian">Русский</item>
+        <item name="serbian">Српски / srpski</item>
+        <item name="spanish">Español</item>
+        <item name="swedish">Svenska</item>
+        <item name="ukrainian">Українська</item>
+        <item name="turkish">Türkçe</item>
+    </string-array>
+    <string-array name="moviesLanguagesValues">
+        <item name="default"></item>
+        <item name="albanian">sq_AL</item>
+        <item name="arabic">ar_AR</item>
+        <item name="basque">eu_ES</item>
+        <item name="belarusian">be_BE</item>
+        <item name="bosnian">bs_BS</item>
+        <item name="bulgarian">bg_BG</item>
+        <item name="catalan">ca_ES</item>
+        <item name="chinese">zh_CN</item>
+        <item name="chinese">zh_TW</item>
+        <item name="czech">cs_CZ</item>
+        <item name="danish">da_DK</item>
+        <item name="dutch">nl_NL</item>
+        <item name="english">en_US</item>
+        <item name="esperanto">eo_EO</item>
+        <item name="estonian">et_ET</item>
+        <item name="finnish">fi_FI</item>
+        <item name="french">fr_FR</item>
+        <item name="german">de_DE</item>
+        <item name="greek">el_GR</item>
+        <item name="hebrew">he_IL</item>
+        <item name="hindi">hi_IN</item>
+        <item name="hungarian">hu_HU</item>
+        <item name="irish">ga_GA</item>
+        <item name="italian">it_IT</item>
+        <item name="japanese">ja_JP</item>
+        <item name="korean">ko_KR</item>
+        <item name="latvian">lv_LV</item>
+        <item name="lithuanian">lt_LT</item>
+        <item name="norwegian">no_NO</item>
+        <item name="polish">pl_PL</item>
+        <item name="portuguese">pt_PT</item>
+        <item name="romanian">ro_RO</item>
+        <item name="russian">ru_RU</item>
+        <item name="serbian">sr_RS</item>
+        <item name="spanish">es_ES</item>
+        <item name="swedish">sv_SE</item>
+        <item name="ukrainian">uk_UA</item>
+        <item name="turkish">tr_TR</item>
+    </string-array>
+
+    <string-array name="genres">
+        <item name="title_action">@string/genre_action</item>
+        <item name="title_adventure">@string/genre_adventure</item>
+        <item name="title_animation">@string/genre_animation</item>
+        <item name="title_comedy">@string/genre_comedy</item>
+        <item name="title_crime">@string/genre_crime</item>
+        <item name="title_documentary">@string/genre_documentary</item>
+        <item name="title_drama">@string/genre_drama</item>
+        <item name="title_family">@string/genre_family</item>
+        <item name="title_fantasy">@string/genre_fantasy</item>
+        <item name="title_history">@string/genre_history</item>
+        <item name="title_horror">@string/genre_horror</item>
+        <item name="title_music">@string/genre_music</item>
+        <item name="title_mystery">@string/genre_mystery</item>
+        <item name="title_romance">@string/genre_romance</item>
+        <item name="genre_science_fiction">@string/genre_science_fiction</item>
+        <item name="genre_tv_movie">@string/genre_tv_movie</item>
+        <item name="title_thriller">@string/genre_thriller</item>
+        <item name="title_war">@string/genre_war</item>
+        <item name="title_western">@string/genre_western</item>
+    </string-array>
+    <string-array name="genresValues">
+        <item name="genre_action">28</item>
+        <item name="genre_adventure">12</item>
+        <item name="genre_animation">16</item>
+        <item name="genre_comedy">35</item>
+        <item name="genre_crime">80</item>
+        <item name="genre_documentary">99</item>
+        <item name="genre_drama">18</item>
+        <item name="genre_family">10751</item>
+        <item name="genre_fantasy">14</item>
+        <item name="genre_history">36</item>
+        <item name="genre_horror">27</item>
+        <item name="genre_music">10402</item>
+        <item name="genre_mystery">9648</item>
+        <item name="genre_romance">10749</item>
+        <item name="genre_science_fiction">878</item>
+        <item name="genre_tv_movie">10770</item>
+        <item name="genre_thriller">53</item>
+        <item name="genre_war">10752</item>
+        <item name="genre_western">37</item>
+    </string-array>
+    
+    <string-array name="sort">
+        <item name="title_popularity_desc">@string/title_popularity_desc</item>
+        <item name="title_popularity_asc">@string/title_popularity_asc</item>
+        <item name="title_rating_desc">@string/title_rating_desc</item>
+        <item name="title_rating_asc">@string/title_rating_asc</item>
+        <item name="title_release_date_desc">@string/title_release_date_desc</item>
+        <item name="title_release_date_asc">@string/title_release_date_asc</item>
+    </string-array>
+    <string-array name="sortValuesMovie">
+        <item name="sort_popularity_desc">popularity.desc</item>
+        <item name="sort_popularity_asc">popularity.asc</item>
+        <item name="sort_rating_desc">rating.desc</item>
+        <item name="sort_rating_asc">rating.asc</item>
+        <item name="sort_release_date_desc">release_date.desc</item>
+        <item name="sort_release_date_asc">release_date.asc</item>
+    </string-array>
+    <string-array name="sortValuesTv">
+        <item name="sort_popularity_desc">popularity.desc</item>
+        <item name="sort_popularity_asc">popularity.asc</item>
+        <item name="sort_rating_desc">rating.desc</item>
+        <item name="sort_rating_asc">rating.asc</item>
+        <item name="sort_first_air_date_desc">first_air_date.desc</item>
+        <item name="sort_first_air_date_asc">first_air_date.asc</item>
+    </string-array>
+</resources>

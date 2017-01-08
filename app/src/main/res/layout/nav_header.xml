@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav_header.root"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@color/colorPrimary">
+
+    <ImageView
+            android:id="@+id/nav_header.background_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/nav_header_reel"/>
+</FrameLayout>

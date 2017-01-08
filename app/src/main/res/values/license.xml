@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string translatable="false" name="about_libraries_text">
+        <![CDATA[
+            <p><a href="http://developer.android.com/tools/support-library/index.html">Android support library</a> (Apache License v2.0)</p>
+            <p><a href="https://github.com/JakeWharton/butterknife">Butter Knife</a> (<a href="https://github.com/JakeWharton/butterknife#license">Apache License v2.0</a>)</p>
+            <p><a href="https://github.com/google/gson">Gson</a> (<a href="https://github.com/google/gson#license">Apache License v2.0</a>)</p>
+            <p><a href="https://github.com/square/okhttp">OkHttp</a> (<a href="https://github.com/square/okhttp#license">Apache License v2.0</a>)</p>
+            <p><a href="https://github.com/square/picasso">Picasso</a> (<a href="https://github.com/square/picasso#license">Apache License v2.0</a>)</p>
+            <p><a href="https://github.com/square/retrofit">Retrofit</a> (<a href="https://github.com/square/retrofit#license">Apache License v2.0</a>)</p>
+            <p><a href="https://github.com/FlyingPumba/SimpleRatingBar">SimpleRatingBar</a> (<a href="https://github.com/FlyingPumba/SimpleRatingBar#license">Apache License v2.0</a>)</p>
+            <p><a href="https://github.com/castorflex/SmoothProgressBar">SmoothProgressBar</a> (<a href="https://github.com/castorflex/SmoothProgressBar#license">Apache License v2.0</a>)</p>
+        ]]>
+    </string>
+    <string translatable="false" name="about_license_text">
+        <![CDATA[
+            <p>Copyright (C) 2017 Eugene Kislyakov</p>
+
+            <p>This program is free software: you can redistribute it and/or modify
+            it under the terms of the GNU General Public License as published by
+            the Free Software Foundation, either version 3 of the License, or
+            (at your option) any later version.</p>
+
+            <p>This program is distributed in the hope that it will be useful,
+            but WITHOUT ANY WARRANTY; without even the implied warranty of
+            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+            GNU General Public License for more details.</p>
+
+            <p>You should have received a copy of the GNU General Public License
+            along with this program.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
+        ]]>
+</string>
+</resources>

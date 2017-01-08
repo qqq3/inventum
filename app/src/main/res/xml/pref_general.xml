@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+            android:key="app_language"
+            android:title="@string/pref_title_app_language"
+            android:defaultValue=""
+            android:entries="@array/languages"
+            android:entryValues="@array/languagesValues"
+            android:negativeButtonText="@string/cancel"/>
+    <ListPreference
+            android:key="movies_language"
+            android:title="@string/pref_title_movies_language"
+            android:defaultValue=""
+            android:entries="@array/moviesLanguages"
+            android:entryValues="@array/moviesLanguagesValues"
+            android:negativeButtonText="@string/cancel"/>
+
+    <Preference
+            android:key="clear_images_cache"
+            android:title="@string/pref_title_clear_cache"/>
+
+    <Preference
+            android:key="about"
+            android:title="@string/pref_title_about"
+            android:icon="@drawable/ic_error_outline">
+        <intent android:action="org.asdtm.inmovie.activity.AboutActivity"/>
+    </Preference>
+
+</PreferenceScreen>

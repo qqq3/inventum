@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#333333</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#f44336</color>
+    <color name="textColor">#f5f5f5</color>
+    <color name="colorWindow">#F4F4F4</color>
+    <color name="colorRating">#F6BD00</color>
+    <color name="colorRatingBackground">#E0E0E0</color>
+    <color name="colorIcons">#FFFFFF</color>
+
+    <color name="subtitle_grey">#9E9E9E</color>
+    <color name="divider">#1f000000</color>
+    <color name="textColorDark">#000000</color>
+    <color name="textColorLight">#FFFFFF</color>
+    <color name="titleBackground">#EEEEEE</color>
+    <color name="colorLink">#0000FF</color>
+    <color name="vote_average_color">#50A000</color>
+</resources>

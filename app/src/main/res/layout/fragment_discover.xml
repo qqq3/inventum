@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/discover.filters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/discover_type"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="18sp"
+                    tools:text="Type"/>
+
+            <RadioGroup
+                    android:id="@+id/discover.toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:checkedButton="@+id/radio_movies"
+                    android:orientation="horizontal"
+                    android:background="@drawable/switch_outline">
+
+                <RadioButton
+                        android:id="@+id/radio_movies"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginStart="1dp"
+                        android:background="@drawable/toggle_widget_background"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/title_activity_movies"
+                        android:textColor="@color/textColorLight"/>
+
+                <RadioButton
+                        android:id="@+id/radio_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginEnd="1dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="@drawable/toggle_widget_background"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/title_activity_tv"
+                        android:textColor="@color/textColorDark"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:id="@+id/genres.root"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.8"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="18sp"
+                    android:text="@string/discover_genres"
+                    tools:text="Genres"/>
+
+            <TextView
+                    android:id="@+id/discover.genres"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/discover_any_genres"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:text="@string/discover_sort"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="18sp"
+                    tools:text="Sort"/>
+
+            <Spinner
+                    android:id="@+id/discover.sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                    android:id="@+id/discover.rating_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/discover_minimum_rating"
+                    android:textColor="@color/textColorDark"
+                    android:textSize="18sp"/>
+
+            <TextView
+                    android:id="@+id/discover.rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorAccent"
+                    tools:text="7"/>
+
+            <android.support.v7.widget.AppCompatSeekBar
+                    android:id="@+id/discover.rating_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:max="10"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/discover.discover"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/discover.filters"
+            android:background="@color/colorAccent"
+            android:text="@string/show_movies"
+            android:textColor="@color/textColorLight"/>
+</RelativeLayout>

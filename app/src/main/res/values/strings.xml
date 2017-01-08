@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name" translatable="false">InMovie</string>
+    <string name="three_dots" translatable="false">&#8230;</string>
+    <string name="feedback_email" translatable="false">asdtm.mobile@gmail.com</string>
+    <string name="network_error">Cannot connect to the Internet.</string>
+    <string name="in_theaters">In Theaters</string>
+    <string name="on_tv">On TV</string>
+    <string name="donation_bitcoin_copy_button">Copy Bitcoin Address</string>
+    <string name="donation_bitcoin_open_app">Open Bitcoin App</string>
+    <string name="donation_bitcoin_copy_message">Bitcoin address was copied to the clipboard</string>
+
+    <string name="more">More</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open" translatable="false">Navigation Drawer Open</string>
+    <string name="navigation_drawer_close" translatable="false">Navigation Drawer Close</string>
+    <string name="nav_menu_home">Home</string>
+    <string name="nav_menu_movies">Movies</string>
+    <string name="nav_menu_tv">TV Shows</string>
+    <string name="nav_menu_celebs">Celebs</string>
+    <string name="nav_menu_discover">Discover</string>
+    <string name="nav_menu_settings">Settings</string>
+    <string name="nav_menu_feedback">Feedback</string>
+    <string name="nav_menu_donate">Donate Bitcoin</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_movies">Movies</string>
+    <string name="title_activity_tv">TV Shows</string>
+    <string name="title_activity_discover">Discover</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="menu_item_update">Update</string>
+
+    <!-- Search activity strings -->
+    <string name="search_name" translatable="false">%1$s (%2$s)</string>
+    <string name="search_original_name" translatable="false">%1$s (%2$s)</string>
+    <string name="search_hint">Search</string>
+
+    <!-- Tabs strings -->
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="airing_today">Airing Today</string>
+
+    <!-- Details activity strings -->
+    <string name="details_movie_name" translatable="false">%1$s (%2$s)</string>
+    <string name="details_tv_name" translatable="false">%1$s (%2$s-%3$s)</string>
+    <string name="details_tagline" translatable="false">\"%s\"</string>
+    <string name="details_runtime">%1$sh %2$sm</string>
+    <string name="details_episode_runtime">%sm</string>
+    <string name="details_budget_revenue" translatable="false">$%,d</string>
+    <string name="details_rating_title">TMDb Rating</string>
+    <string name="details_facts_title">Facts</string>
+    <string name="details_release_date_title">Release Date</string>
+    <string name="details_status_title">Status</string>
+    <string name="details_network_title">Network</string>
+    <string name="details_imdb_page_title">IMDb Page</string>
+    <string name="detail_homepage_title">Homepage</string>
+    <string name="details_budget_title">Budget............................................................................................................................</string>
+    <string name="details_revenue_title">Revenue..........................................................................................................................</string>
+    <string name="details_budget_revenue_title">Budget and Revenues</string>
+    <string name="details_born_title">Born</string>
+    <string name="details_died_title">Died</string>
+
+    <string name="movie_original_name" translatable="false">%1$s (%2$s)</string>
+    <string name="tv_original_name" translatable="false">%1$s (%2$s-%3$s)</string>
+
+    <!-- Preferences strings -->
+    <string name="pref_title_app_language">App Language</string>
+    <string name="pref_title_movies_language">Movies Language</string>
+    <string name="pref_title_clear_cache">Clear images cache</string>
+    <string name="pref_title_about">About</string>
+    <string name="pref_summary_cache_size">Cache size %.2fMB</string>
+
+    <!-- Dialogs strings -->
+    <string name="restart_dialog_message">Please restart application to apply new settings</string>
+    <string name="clear_cache_message_ok">Cache cleared</string>
+    <string name="clear_cache_message_fail">The cache is not cleared</string>
+    <string name="genres_dialog_title">Genres</string>
+
+    <!-- Genres list -->
+    <string name="genre_action">Action</string>
+    <string name="genre_adventure">Adventure</string>
+    <string name="genre_animation">Animation</string>
+    <string name="genre_comedy">Comedy</string>
+    <string name="genre_crime">Crime</string>
+    <string name="genre_documentary">Documentary</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_family">Family</string>
+    <string name="genre_fantasy">Fantasy</string>
+    <string name="genre_history">History</string>
+    <string name="genre_horror">Horror</string>
+    <string name="genre_music">Music</string>
+    <string name="genre_mystery">Mystery</string>
+    <string name="genre_romance">Romance</string>
+    <string name="genre_science_fiction">Science Fiction</string>
+    <string name="genre_tv_movie">TV Movie</string>
+    <string name="genre_thriller">Thriller</string>
+    <string name="genre_war">War</string>
+    <string name="genre_western">Western</string>
+
+    <!-- Sort list -->
+    <string name="title_popularity_desc">Popularity Descending</string>
+    <string name="title_popularity_asc">Popularity Ascending</string>
+    <string name="title_rating_desc">Rating Descending</string>
+    <string name="title_rating_asc">Rating Ascending</string>
+    <string name="title_release_date_desc">Release Date Descending</string>
+    <string name="title_release_date_asc">Release Date Ascending</string>
+
+    <!-- Discover strings -->
+    <string name="discover_type">Type</string>
+    <string name="discover_genres">Genres</string>
+    <string name="discover_minimum_rating">Minimum Rating</string>
+    <string name="discover_sort">Sort By</string>
+    <string name="discover_any_genres">any</string>
+    <string name="show_movies">Show Movies</string>
+
+    <!-- About strings -->
+    <string name="about_app_info">
+        <![CDATA[
+            <p>Source code available on <a href="https://github.com/qqq3/in-movie">GitHub (github.com/qqq3/in-movie)</a></p>
+        ]]>
+    </string>
+    <string name="about_libraries_title">Libraries &amp; Resources</string>
+    <string name="about_license_title">License</string>
+</resources>
