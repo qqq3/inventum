@@ -1,0 +1,117 @@
+<resources>
+    <string name="network_error">Keine Verbindung zum Internet möglich.</string>
+    <string name="in_theaters">Im Kino</string>
+    <string name="on_tv">Im TV</string>
+    <string name="donation_bitcoin_copy_button">Bitcoin-Adresse kopieren</string>
+    <string name="donation_bitcoin_open_app">Bitcoin App öffnen</string>
+    <string name="donation_bitcoin_copy_message">Bitcoin-Adresse wurde in die Zwischenablage kopiert</string>
+
+    <string name="more">Mehr</string>
+    <string name="cancel">Stornieren</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_menu_home">Startseite</string>
+    <string name="nav_menu_movies">Filme</string>
+    <string name="nav_menu_tv">Serien</string>
+    <string name="nav_menu_celebs">Personen</string>
+    <string name="nav_menu_discover">Entdecken</string>
+    <string name="nav_menu_settings">Einstellungen</string>
+    <string name="nav_menu_feedback">Feedback</string>
+    <string name="nav_menu_donate">Bitcoin spenden</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_home">Startseite</string>
+    <string name="title_activity_movies">Filme</string>
+    <string name="title_activity_tv">Serien</string>
+    <string name="title_activity_discover">Entdecken</string>
+    <string name="title_activity_search">Suche</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="title_activity_about">Über</string>
+
+    <string name="menu_item_update">Aktualisieren</string>
+
+    <!-- Search activity strings -->
+    <string name="search_hint">Suche</string>
+
+    <!-- Tabs strings -->
+    <string name="popular">Beliebt</string>
+    <string name="top_rated">Bestbewertet</string>
+    <string name="upcoming">Kommend</string>
+    <string name="now_playing">Im Kino</string>
+    <string name="airing_today">Heute im TV</string>
+
+    <!-- Details activity strings -->
+    <string name="details_runtime">%1$sh %2$sm</string>
+    <string name="details_episode_runtime">%sm</string>
+    <string name="details_rating_title">TMDb Bewertung</string>
+    <string name="details_facts_title">Fakten</string>
+    <string name="details_release_date_title">Veröffentlichungsdatum</string>
+    <string name="details_status_title">Status</string>
+    <string name="details_network_title">Sender</string>
+    <string name="details_imdb_page_title">IMDb seite</string>
+    <string name="detail_homepage_title">Homepage</string>
+    <string name="details_budget_title">Budget............................................................................................................................</string>
+    <string name="details_revenue_title">Einspielergebnis..........................................................................................................................</string>
+    <string name="details_budget_revenue_title">Budget und Einnahmen</string>
+    <string name="details_born_title">Geboren</string>
+    <string name="details_died_title">Gestorben</string>
+
+    <!-- Preferences strings -->
+    <string name="pref_title_app_language">App-Sprache</string>
+    <string name="pref_title_movies_language">Filme Sprache</string>
+    <string name="pref_title_clear_cache">Bilder löschen cache</string>
+    <string name="pref_title_about">Über</string>
+    <string name="pref_summary_cache_size">Cache-Größe %.2fMB</string>
+
+    <!-- Dialogs strings -->
+    <string name="restart_dialog_message">Starten Sie die Anwendung neu, um neue Einstellungen anzuwenden</string>
+    <string name="clear_cache_message_ok">Cache gelöscht</string>
+    <string name="clear_cache_message_fail">Der Cache wird nicht gelöscht</string>
+    <string name="genres_dialog_title">Genres</string>
+
+    <!-- Genres list -->
+    <string name="genre_action">Action</string>
+    <string name="genre_adventure">Abenteuer</string>
+    <string name="genre_animation">Animation</string>
+    <string name="genre_comedy">Komödie</string>
+    <string name="genre_crime">Krimi</string>
+    <string name="genre_documentary">Dokumentarfilm</string>
+    <string name="genre_drama">Drama</string>
+    <string name="genre_family">Familie</string>
+    <string name="genre_fantasy">Fantasy</string>
+    <string name="genre_history">Historie</string>
+    <string name="genre_horror">Horror</string>
+    <string name="genre_music">Musik</string>
+    <string name="genre_mystery">Mystery</string>
+    <string name="genre_romance">Lovestory</string>
+    <string name="genre_science_fiction">Sci-Fi</string>
+    <string name="genre_tv_movie">TV-Film</string>
+    <string name="genre_thriller">Thriller</string>
+    <string name="genre_war">Kriegsfilm</string>
+    <string name="genre_western">Western</string>
+
+    <!-- Sort list -->
+    <string name="title_popularity_desc">Beliebtheit Absteigend</string>
+    <string name="title_popularity_asc">Beliebtheit Aufsteigend</string>
+    <string name="title_rating_desc">Bewertung Absteigend</string>
+    <string name="title_rating_asc">Bewertung Aufsteigend</string>
+    <string name="title_release_date_desc">Erscheinungsdatum Absteigend</string>
+    <string name="title_release_date_asc">Erscheinungsdatum Aufsteigend</string>
+
+    <!-- Discover strings -->
+    <string name="discover_type">Art</string>
+    <string name="discover_genres">Genres</string>
+    <string name="discover_minimum_rating">Mindestbewertung</string>
+    <string name="discover_sort">Sortieren nach</string>
+    <string name="discover_any_genres">irgendein</string>
+    <string name="show_movies">Filme anzeigen</string>
+
+    <!-- About strings -->
+    <string name="about_app_info">
+        <![CDATA[
+            <p>Quellcode verfügbar auf <a href="https://github.com/qqq3/in-movie">GitHub (github.com/qqq3/in-movie)</a></p>
+        ]]>
+    </string>
+    <string name="about_libraries_title">Bibliotheken &amp; Ressourcen</string>
+    <string name="about_license_title">Lizenz</string>
+</resources>
