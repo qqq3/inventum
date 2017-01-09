@@ -128,4 +128,6 @@
     </string>
     <string name="about_libraries_title">Libraries &amp; Resources</string>
     <string name="about_license_title">License</string>
+    <string name="about_credits_title" translatable="false">Credits</string>
+    <string name="about_credits" translatable="false">This product uses the TMDb API but is not endorsed or certified by TMDb.</string>
 </resources>
