@@ -6,7 +6,7 @@ Open Source Android app for TMDb
 
 ## Features
 ### General Features
-* Different languages: system, English, Polish, Belarusian, Russian
+* Different languages: system, English, Spanish, German, Polish, Belarusian, Russian
 * Top rated movies
 * Upcoming movies
 * Now playing movies
@@ -25,6 +25,11 @@ Open Source Android app for TMDb
 * Search: Search for TV shows with a text query
 * Discover: Search for TV shows based on data
 * Get details: primary info, rating, overview, release information
+
+## Screenshots
+[<img src="http://i.imgur.com/mlX4WOi.png" alt="InMovie preview" width="200"/>](http://i.imgur.com/mlX4WOi.png)
+[<img src="http://i.imgur.com/kCe493M.png" alt="InMovie preview" width="200"/>](http://i.imgur.com/kCe493M.png)
+[<img src="http://i.imgur.com/Q85Cqcl.png" alt="InMovie preview" width="200"/>](http://i.imgur.com/Q85Cqcl.png)
 
 ## License
 ```
