@@ -76,8 +76,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieHolde
             positionView.setText(String.valueOf(position + 1));
             Drawable placeholder = ResourcesCompat.getDrawable(mContext.getResources(), R.drawable.background_reel, null);
             Picasso.with(mContext)
-                    .setIndicatorsEnabled(true);
-            Picasso.with(mContext)
                     .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W342 + movie.getPosterPath())
                     .placeholder(placeholder)
                     .fit().centerCrop()

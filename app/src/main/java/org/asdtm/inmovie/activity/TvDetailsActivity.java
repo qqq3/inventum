@@ -115,7 +115,6 @@ public class TvDetailsActivity extends AppCompatActivity {
             String backdropPath = mCursor.getString(mCursor.getColumnIndex(MovieContract.TVs.TV_BACKDROP_PATH));
             String posterPath = mCursor.getString(mCursor.getColumnIndex(MovieContract.TVs.TV_POSTER_PATH));
             if (backdropPath != null) {
-                Picasso.with(TvDetailsActivity.this).setIndicatorsEnabled(true);
                 Picasso.with(TvDetailsActivity.this)
                         .load(Constants.TMDB_IMAGE_URL + Constants.BACKDROP_SIZE_W780 + backdropPath)
                         .placeholder(placeholderImage)
@@ -123,7 +122,6 @@ public class TvDetailsActivity extends AppCompatActivity {
                         .error(placeholderImage)
                         .into(backdrop);
             } else {
-                Picasso.with(TvDetailsActivity.this).setIndicatorsEnabled(true);
                 Picasso.with(TvDetailsActivity.this)
                         .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W500 + posterPath)
                         .placeholder(placeholderImage)
@@ -131,7 +129,6 @@ public class TvDetailsActivity extends AppCompatActivity {
                         .error(placeholderImage)
                         .into(backdrop);
             }
-            Picasso.with(TvDetailsActivity.this).setIndicatorsEnabled(true);
             Picasso.with(TvDetailsActivity.this)
                     .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W342 + posterPath)
                     .placeholder(placeholderImage)
@@ -202,7 +199,6 @@ public class TvDetailsActivity extends AppCompatActivity {
                     String networksStr = (!tv.getNetworks().isEmpty()) ? tv.getNetworks().get(0).getName() : "-";
 
                     if (tv.getBackdropPath() != null) {
-                        Picasso.with(TvDetailsActivity.this).setIndicatorsEnabled(true);
                         Picasso.with(TvDetailsActivity.this)
                                 .load(Constants.TMDB_IMAGE_URL + Constants.BACKDROP_SIZE_W780 + tv.getBackdropPath())
                                 .placeholder(placeholderImage)
@@ -210,7 +206,6 @@ public class TvDetailsActivity extends AppCompatActivity {
                                 .error(placeholderImage)
                                 .into(backdrop);
                     } else {
-                        Picasso.with(TvDetailsActivity.this).setIndicatorsEnabled(true);
                         Picasso.with(TvDetailsActivity.this)
                                 .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W500 + tv.getPosterPath())
                                 .placeholder(placeholderImage)
@@ -218,7 +213,6 @@ public class TvDetailsActivity extends AppCompatActivity {
                                 .error(placeholderImage)
                                 .into(backdrop);
                     }
-                    Picasso.with(TvDetailsActivity.this).setIndicatorsEnabled(true);
                     Picasso.with(TvDetailsActivity.this)
                             .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W342 + tv.getPosterPath())
                             .placeholder(placeholderImage)

@@ -120,7 +120,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
             String backdropPath = mCursor.getString(mCursor.getColumnIndex(MovieContract.Movies.MOVIE_BACKDROP_PATH));
             String posterPath = mCursor.getString(mCursor.getColumnIndex(MovieContract.Movies.MOVIE_POSTER_PATH));
             if (backdropPath != null) {
-                Picasso.with(MovieDetailsActivity.this).setIndicatorsEnabled(true);
                 Picasso.with(MovieDetailsActivity.this)
                         .load(Constants.TMDB_IMAGE_URL + Constants.BACKDROP_SIZE_W780 + backdropPath)
                         .placeholder(placeholderImage)
@@ -128,7 +127,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                         .error(placeholderImage)
                         .into(backdrop);
             } else {
-                Picasso.with(MovieDetailsActivity.this).setIndicatorsEnabled(true);
                 Picasso.with(MovieDetailsActivity.this)
                         .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W500 + posterPath)
                         .placeholder(placeholderImage)
@@ -136,7 +134,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                         .error(placeholderImage)
                         .into(backdrop);
             }
-            Picasso.with(MovieDetailsActivity.this).setIndicatorsEnabled(true);
             Picasso.with(MovieDetailsActivity.this)
                     .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W342 + posterPath)
                     .placeholder(placeholderImage)
@@ -197,7 +194,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                     addOrUpdate(movie);
 
                     if (movie.getBackdropPath() != null) {
-                        Picasso.with(MovieDetailsActivity.this).setIndicatorsEnabled(true);
                         Picasso.with(MovieDetailsActivity.this)
                                 .load(Constants.TMDB_IMAGE_URL + Constants.BACKDROP_SIZE_W780 + movie.getBackdropPath())
                                 .placeholder(placeholderImage)
@@ -205,7 +201,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                                 .error(placeholderImage)
                                 .into(backdrop);
                     } else {
-                        Picasso.with(MovieDetailsActivity.this).setIndicatorsEnabled(true);
                         Picasso.with(MovieDetailsActivity.this)
                                 .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W500 + movie.getPosterPath())
                                 .placeholder(placeholderImage)
@@ -213,7 +208,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
                                 .error(placeholderImage)
                                 .into(backdrop);
                     }
-                    Picasso.with(MovieDetailsActivity.this).setIndicatorsEnabled(true);
                     Picasso.with(MovieDetailsActivity.this)
                             .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W342 + movie.getPosterPath())
                             .placeholder(placeholderImage)

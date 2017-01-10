@@ -72,8 +72,6 @@ public class HomeTvAdapter extends RecyclerView.Adapter<HomeTvAdapter.TvHolder> 
             tvTitle.setText(tv.getName());
             Drawable placeholder = ResourcesCompat.getDrawable(mContext.getResources(), R.drawable.background_reel, null);
             Picasso.with(mContext)
-                    .setIndicatorsEnabled(true);
-            Picasso.with(mContext)
                     .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W342 + tv.getPosterPath())
                     .placeholder(placeholder)
                     .fit().centerCrop()

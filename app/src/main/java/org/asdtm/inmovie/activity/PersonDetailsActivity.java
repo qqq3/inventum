@@ -115,7 +115,6 @@ public class PersonDetailsActivity extends AppCompatActivity {
             String imdbId = mCursor.getString(mCursor.getColumnIndex(MovieContract.Persons.PERSON_BIOGRAPHY));
             String homepageUrl = mCursor.getString(mCursor.getColumnIndex(MovieContract.Persons.PERSON_BIOGRAPHY));
 
-            Picasso.with(PersonDetailsActivity.this).setIndicatorsEnabled(true);
             Picasso.with(PersonDetailsActivity.this)
                     .load(Constants.TMDB_IMAGE_URL + Constants.PROFILE_SIZE_W185 + photoUrl)
                     .placeholder(placeholderImage)
@@ -151,7 +150,6 @@ public class PersonDetailsActivity extends AppCompatActivity {
                     Person person = response.body();
                     addOrUpdate(person);
 
-                    Picasso.with(PersonDetailsActivity.this).setIndicatorsEnabled(true);
                     Picasso.with(PersonDetailsActivity.this)
                             .load(Constants.TMDB_IMAGE_URL + Constants.PROFILE_SIZE_W185 + person.getProfilePath())
                             .placeholder(placeholderImage)
@@ -174,7 +172,7 @@ public class PersonDetailsActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<Person> call, Throwable t) {
-                Log.i(TAG, "Error: " + t.getMessage());
+                Log.e(TAG, "Error: " + t.getMessage());
                 updateProgressBar(false);
             }
         });

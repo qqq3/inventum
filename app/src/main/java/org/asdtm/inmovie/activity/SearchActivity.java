@@ -221,7 +221,6 @@ public class SearchActivity extends AppCompatActivity {
             mItem = item;
             switch (item.getMediaType()) {
                 case TYPE_MOVIE:
-                        Picasso.with(mContext).setIndicatorsEnabled(true);
                         Picasso.with(mContext)
                                 .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W154 + item.getPosterPath())
                                 .placeholder(placeholderImage)
@@ -235,7 +234,6 @@ public class SearchActivity extends AppCompatActivity {
                     voteCount.setText(String.valueOf(item.getVoteCount()));
                     break;
                 case TYPE_TV:
-                        Picasso.with(mContext).setIndicatorsEnabled(true);
                         Picasso.with(mContext)
                                 .load(Constants.TMDB_IMAGE_URL + Constants.POSTER_SIZE_W154 + item.getPosterPath())
                                 .placeholder(placeholderImage)
@@ -249,7 +247,6 @@ public class SearchActivity extends AppCompatActivity {
                     voteCount.setText(String.valueOf(item.getVoteCount()));
                     break;
                 case TYPE_PERSON:
-                        Picasso.with(mContext).setIndicatorsEnabled(true);
                         Picasso.with(mContext)
                                 .load(Constants.TMDB_IMAGE_URL + Constants.PROFILE_SIZE_W185 + item.getProfilePath())
                                 .placeholder(placeholderImage)
