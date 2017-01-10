@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="languages">
+    <string-array name="languages" translatable="false">
         <item name="default">System Default</item>
-        <item name="english">English</item>
         <item name="belarusian">Беларуская</item>
+        <item name="german">Deutsch</item>
+        <item name="english">English</item>
+        <item name="spanish">Español(España)</item>
+        <item name="polish">Polski</item>
         <item name="russian">Русский</item>
     </string-array>
-    <string-array name="languagesValues">
+    <string-array name="languagesValues" translatable="false">
         <item name="default"></item>
-        <item name="english">en_GB</item>
         <item name="belarusian">be_BY</item>
+        <item name="german">de_DE</item>
+        <item name="english">en_GB</item>
+        <item name="spanish">es_ES</item>
+        <item name="polish">pl_PL</item>
         <item name="russian">ru_RU</item>
     </string-array>
 
-    <string-array name="moviesLanguages">
+    <string-array name="moviesLanguages" translatable="false">
         <item name="default">System Default</item>
         <item name="albanian">Shqip</item>
         <item name="arabic">العربية</item>
@@ -54,7 +60,7 @@
         <item name="ukrainian">Українська</item>
         <item name="turkish">Türkçe</item>
     </string-array>
-    <string-array name="moviesLanguagesValues">
+    <string-array name="moviesLanguagesValues" translatable="false">
         <item name="default"></item>
         <item name="albanian">sq_AL</item>
         <item name="arabic">ar_AR</item>
@@ -117,7 +123,7 @@
         <item name="title_war">@string/genre_war</item>
         <item name="title_western">@string/genre_western</item>
     </string-array>
-    <string-array name="genresValues">
+    <string-array name="genresValues" translatable="false">
         <item name="genre_action">28</item>
         <item name="genre_adventure">12</item>
         <item name="genre_animation">16</item>
@@ -147,7 +153,7 @@
         <item name="title_release_date_desc">@string/title_release_date_desc</item>
         <item name="title_release_date_asc">@string/title_release_date_asc</item>
     </string-array>
-    <string-array name="sortValuesMovie">
+    <string-array name="sortValuesMovie" translatable="false">
         <item name="sort_popularity_desc">popularity.desc</item>
         <item name="sort_popularity_asc">popularity.asc</item>
         <item name="sort_rating_desc">rating.desc</item>
@@ -155,7 +161,7 @@
         <item name="sort_release_date_desc">release_date.desc</item>
         <item name="sort_release_date_asc">release_date.asc</item>
     </string-array>
-    <string-array name="sortValuesTv">
+    <string-array name="sortValuesTv" translatable="false">
         <item name="sort_popularity_desc">popularity.desc</item>
         <item name="sort_popularity_asc">popularity.asc</item>
         <item name="sort_rating_desc">rating.desc</item>
