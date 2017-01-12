@@ -1,20 +1,14 @@
-[![Release](https://img.shields.io/github/release/qqq3/in-movie.svg)](https://github.com/qqq3/in-movie/releases)
-[![License](https://img.shields.io/badge/license-GNU_GPLv3-orange.svg)](https://raw.githubusercontent.com/qqq3/in-movie/HEAD/LICENSE)
+[![Release](https://img.shields.io/github/release/qqq3/inventum.svg)](https://github.com/qqq3/inventum/releases)
+[![License](https://img.shields.io/badge/license-GNU_GPLv3-orange.svg)](https://raw.githubusercontent.com/qqq3/inventum/HEAD/LICENSE)
 
-# InMovie
-Open Source Android app for TMDb
+# Inventum
+Simple client for [TMDb](http://themoviedb.org/)
 
 ## Features
 ### General Features
 * Different languages: system, English, Spanish, German, Polish, Belarusian, Russian
-* Top rated movies
-* Upcoming movies
-* Now playing movies
-* Popular movies
-* Airing today TV shows
-* On the air TV shows
-* Popular TV shows
-* Top rated TV shows
+* Movies: Top rated, Upcoming, Now playing, Popular
+* TV shows: Airing today, On the air, Popular, Top rated
 
 ### Movie Features
 * Search: Search for movies with a text query
@@ -27,9 +21,9 @@ Open Source Android app for TMDb
 * Get details: primary info, rating, overview, release information
 
 ## Screenshots
-[<img src="http://i.imgur.com/mlX4WOi.png" alt="InMovie preview" width="200"/>](http://i.imgur.com/mlX4WOi.png)
-[<img src="http://i.imgur.com/kCe493M.png" alt="InMovie preview" width="200"/>](http://i.imgur.com/kCe493M.png)
-[<img src="http://i.imgur.com/Q85Cqcl.png" alt="InMovie preview" width="200"/>](http://i.imgur.com/Q85Cqcl.png)
+[<img src="http://i.imgur.com/mlX4WOi.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/mlX4WOi.png)
+[<img src="http://i.imgur.com/kCe493M.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/kCe493M.png)
+[<img src="http://i.imgur.com/Q85Cqcl.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/Q85Cqcl.png)
 
 ## License
 ```
