@@ -109,7 +109,7 @@
     <!-- About strings -->
     <string name="about_app_info">
         <![CDATA[
-            <p>Código fuente disponible en <a href="https://github.com/qqq3/in-movie">GitHub (github.com/qqq3/in-movie)</a></p>
+            <p>Código fuente disponible en <a href="https://github.com/qqq3/in-movie">GitHub (github.com/qqq3/inventum)</a></p>
         ]]>
     </string>
     <string name="about_libraries_title">Bibliotecas &amp; Recursos</string>
