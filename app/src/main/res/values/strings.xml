@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">InMovie</string>
+    <string name="app_name" translatable="false">Inventum</string>
     <string name="three_dots" translatable="false">&#8230;</string>
     <string name="feedback_email" translatable="false">asdtm.mobile@gmail.com</string>
     <string name="network_error">Cannot connect to the Internet.</string>

@@ -127,7 +127,7 @@
                     android:layout_height="1dp"
                     android:background="@color/divider"/>
 
-            <org.asdtm.inmovie.view.ExpandableTextView
+            <org.asdtm.fas.view.ExpandableTextView
                     android:id="@+id/tv_details.overview"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

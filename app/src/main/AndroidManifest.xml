@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="org.asdtm.inmovie">
+          package="org.asdtm.fas">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
-            android:name=".InMovieApp"
+            android:name="org.asdtm.fas.App"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:roundIcon="@mipmap/ic_launcher"
@@ -14,7 +14,7 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".activity.HomeActivity"
+                android:name="org.asdtm.fas.activity.HomeActivity"
                 android:label="@string/app_name"
                 android:launchMode="singleTop"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -25,17 +25,17 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".activity.MoviesActivity"
+                android:name="org.asdtm.fas.activity.MoviesActivity"
                 android:label="@string/title_activity_movies"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name=".activity.TvActivity"
+                android:name="org.asdtm.fas.activity.TvActivity"
                 android:label="@string/title_activity_tv"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
-                android:name=".activity.SearchActivity"
+                android:name="org.asdtm.fas.activity.SearchActivity"
                 android:label="@string/title_activity_search"
                 android:launchMode="singleTop"
                 android:theme="@style/AppTheme.NoActionBar">
@@ -48,47 +48,47 @@
                     android:resource="@xml/searchable"/>
         </activity>
         <activity
-                android:name=".activity.MovieDetailsActivity"
+                android:name="org.asdtm.fas.activity.MovieDetailsActivity"
                 android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-                android:name=".activity.TvDetailsActivity"
+                android:name="org.asdtm.fas.activity.TvDetailsActivity"
                 android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-                android:name=".activity.PersonDetailsActivity"
+                android:name="org.asdtm.fas.activity.PersonDetailsActivity"
                 android:theme="@style/AppTheme.NoActionBar"/>
 
         <activity
-                android:name=".activity.SettingsActivity"
+                android:name="org.asdtm.fas.activity.SettingsActivity"
                 android:label="@string/title_activity_settings"
                 android:theme="@style/AppTheme"
-                android:parentActivityName=".activity.HomeActivity"
+                android:parentActivityName="org.asdtm.fas.activity.HomeActivity"
                 android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value=".activity.HomeActivity"/>
+                    android:value="org.asdtm.fas.activity.HomeActivity"/>
         </activity>
 
         <activity
-                android:name=".activity.DiscoverActivity"
+                android:name="org.asdtm.fas.activity.DiscoverActivity"
                 android:label="@string/title_activity_discover"
                 android:theme="@style/AppTheme.NoActionBar"
                 android:screenOrientation="portrait">
         </activity>
 
         <activity
-                android:name=".activity.AboutActivity"
+                android:name="org.asdtm.fas.activity.AboutActivity"
                 android:label="@string/title_activity_about"
                 android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="org.asdtm.inmovie.activity.AboutActivity"/>
+                <action android:name="org.asdtm.fas.activity.AboutActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
 
 
         <provider
-                android:name=".provider.MovieProvider"
-                android:authorities="org.asdtm.inmovie"
+                android:name="org.asdtm.fas.provider.MovieProvider"
+                android:authorities="org.asdtm.fas"
                 android:exported="true"/>
 
     </application>

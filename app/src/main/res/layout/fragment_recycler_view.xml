@@ -24,7 +24,7 @@
             style="@style/InMovieCircularProgressBar"
             android:visibility="gone"/>
 
-    <org.asdtm.inmovie.view.CustomErrorView
+    <org.asdtm.fas.view.CustomErrorView
             android:id="@+id/error"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

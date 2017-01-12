@@ -23,7 +23,7 @@
             android:key="about"
             android:title="@string/pref_title_about"
             android:icon="@drawable/ic_error_outline">
-        <intent android:action="org.asdtm.inmovie.activity.AboutActivity"/>
+        <intent android:action="org.asdtm.fas.activity.AboutActivity"/>
     </Preference>
 
 </PreferenceScreen>
