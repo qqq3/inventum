@@ -1,0 +1,117 @@
+<resources>
+    <string name="network_error">インターネットに接続できませんでした。</string>
+    <string name="in_theaters">映画館</string>
+    <string name="on_tv">TV</string>
+    <string name="donation_bitcoin_copy_button">Bitcoin アドレスをコピー</string>
+    <string name="donation_bitcoin_open_app">Bitcoin アプリを開く</string>
+    <string name="donation_bitcoin_copy_message">Bitcoin アドレスをクリップボードにコピーしました</string>
+
+    <string name="more">さらに</string>
+    <string name="cancel">キャンセル</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_menu_home">ホーム</string>
+    <string name="nav_menu_movies">映画</string>
+    <string name="nav_menu_tv">TV 番組</string>
+    <string name="nav_menu_celebs">セレブ</string>
+    <string name="nav_menu_discover">探索</string>
+    <string name="nav_menu_settings">設定</string>
+    <string name="nav_menu_feedback">フィードバック</string>
+    <string name="nav_menu_donate">Bitcoin を寄付</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_home">ホーム</string>
+    <string name="title_activity_movies">映画</string>
+    <string name="title_activity_tv">TV 番組</string>
+    <string name="title_activity_discover">探索</string>
+    <string name="title_activity_search">検索</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_about">アプリについて</string>
+
+    <string name="menu_item_update">更新</string>
+
+    <!-- Search activity strings -->
+    <string name="search_hint">検索</string>
+
+    <!-- Tabs strings -->
+    <string name="popular">人気</string>
+    <string name="top_rated">上位の評価</string>
+    <string name="upcoming">近日中</string>
+    <string name="now_playing">上演中</string>
+    <string name="airing_today">今日の放送</string>
+
+    <!-- Details activity strings -->
+    <string name="details_runtime">%1$s時間 %2$s分</string>
+    <string name="details_episode_runtime">%s分</string>
+    <string name="details_rating_title">TMDb の評価</string>
+    <string name="details_facts_title">事実</string>
+    <string name="details_release_date_title">リリース日</string>
+    <string name="details_status_title">ステータス</string>
+    <string name="details_network_title">ネットワーク</string>
+    <string name="details_imdb_page_title">IMDb ページ</string>
+    <string name="detail_homepage_title">ホームページ</string>
+    <string name="details_budget_title">予算............................................................................................................................</string>
+    <string name="details_revenue_title">収入..........................................................................................................................</string>
+    <string name="details_budget_revenue_title">予算と収入</string>
+    <string name="details_born_title">誕生</string>
+    <string name="details_died_title">死去</string>
+
+    <!-- Preferences strings -->
+    <string name="pref_title_app_language">アプリの言語</string>
+    <string name="pref_title_movies_language">映画の言語</string>
+    <string name="pref_title_clear_cache">画像キャッシュをクリア</string>
+    <string name="pref_title_about">アプリについて</string>
+    <string name="pref_summary_cache_size">キャッシュサイズ %.2fMB</string>
+
+    <!-- Dialogs strings -->
+    <string name="restart_dialog_message">新しい設定を適用するためにアプリケーションを再起動してください</string>
+    <string name="clear_cache_message_ok">キャッシュをクリアしました</string>
+    <string name="clear_cache_message_fail">キャッシュはクリアされません</string>
+    <string name="genres_dialog_title">ジャンル</string>
+
+    <!-- Genres list -->
+    <string name="genre_action">アクション</string>
+    <string name="genre_adventure">アドベンチャー</string>
+    <string name="genre_animation">アニメ</string>
+    <string name="genre_comedy">コメディー</string>
+    <string name="genre_crime">犯罪</string>
+    <string name="genre_documentary">ドキュメンタリー</string>
+    <string name="genre_drama">ドラマ</string>
+    <string name="genre_family">ファミリー</string>
+    <string name="genre_fantasy">ファンタジー</string>
+    <string name="genre_history">歴史</string>
+    <string name="genre_horror">ホラー</string>
+    <string name="genre_music">音楽</string>
+    <string name="genre_mystery">ミステリー</string>
+    <string name="genre_romance">ロマンス</string>
+    <string name="genre_science_fiction">SF</string>
+    <string name="genre_tv_movie">TV 映画</string>
+    <string name="genre_thriller">スリラー</string>
+    <string name="genre_war">戦争</string>
+    <string name="genre_western">西部劇</string>
+
+    <!-- Sort list -->
+    <string name="title_popularity_desc">人気の降順</string>
+    <string name="title_popularity_asc">人気の昇順</string>
+    <string name="title_rating_desc">評価の降順</string>
+    <string name="title_rating_asc">評価の昇順</string>
+    <string name="title_release_date_desc">リリース日の降順</string>
+    <string name="title_release_date_asc">リリース日の昇順</string>
+
+    <!-- Discover strings -->
+    <string name="discover_type">種類</string>
+    <string name="discover_genres">ジャンル</string>
+    <string name="discover_minimum_rating">最低の評価</string>
+    <string name="discover_sort">並び替え</string>
+    <string name="discover_any_genres">すべて</string>
+    <string name="show_movies">映画を表示</string>
+
+    <!-- About strings -->
+    <string name="about_app_info">
+        <![CDATA[
+            <p>ソースコードは <a href="https://github.com/qqq3/in-movie">GitHub (github.com/qqq3/inventum)</a> で利用できます</p>
+        ]]>
+    </string>
+    <string name="about_libraries_title">ライブラリー &amp; リソース</string>
+    <string name="about_license_title">ライセンス</string>
+</resources>
