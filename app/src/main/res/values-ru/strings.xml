@@ -18,6 +18,8 @@
     <string name="pref_title_app_language">Язык приложения</string>
     <string name="restart_dialog_message">Пожалуйста, перезапустите приложение, чтобы применить новые настройки</string>
     <string name="search_hint">Поиск</string>
+
+    <!-- Activity Titles -->
     <string name="title_activity_settings">Настройки</string>
     <string name="title_activity_tv">Сериалы</string>
     <string name="title_activity_search">Поиск</string>
@@ -25,6 +27,8 @@
     <string name="title_activity_home">Главная</string>
     <string name="title_activity_discover">Обзор</string>
     <string name="title_activity_about">О приложении</string>
+    <string name="title_activity_videos">Видео</string>
+
     <string name="pref_summary_cache_size">Размер кэша %.2fMB</string>
     <string name="nav_menu_feedback">Обратная связь</string>
     <string name="nav_menu_discover">Обзор</string>
@@ -52,6 +56,7 @@
     <string name="details_died_title">Дата смерти</string>
     <string name="details_budget_title">Бюджет............................................................................................................................</string>
     <string name="details_budget_revenue_title">Бюджет и доходы</string>
+    <string name="details_video_title">Видео (%d)</string>
 
     <!-- Genres list -->
     <string name="genre_action">боевик</string>

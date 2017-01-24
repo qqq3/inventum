@@ -2,6 +2,7 @@ package org.asdtm.fas.service;
 
 import org.asdtm.fas.model.Movie;
 import org.asdtm.fas.model.MovieResults;
+import org.asdtm.fas.model.VideoResults;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -12,6 +13,13 @@ public interface MovieService {
 
     @GET("movie/{movie_id}")
     Call<Movie> movieDetails(
+            @Path("movie_id") String id,
+            @Query("api_key") String api_key,
+            @Query("language") String lang
+    );
+
+    @GET("movie/{movie_id}/videos")
+    Call<VideoResults> movieVideos(
             @Path("movie_id") String id,
             @Query("api_key") String api_key,
             @Query("language") String lang

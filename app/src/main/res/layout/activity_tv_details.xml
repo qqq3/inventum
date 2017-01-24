@@ -136,6 +136,47 @@
                     android:textColor="@color/textColorDark"
                     tools:text="Set in Springfield, the average American town, the show focuses "/>
 
+            <LinearLayout
+                    android:id="@+id/tv_details.video_layout_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                <TextView
+                        android:id="@+id/tv_details.video_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center_vertical"
+                        android:background="@color/titleBackground"
+                        android:paddingLeft="@dimen/activity_vertical_margin"
+                        android:paddingRight="@dimen/activity_vertical_margin"
+                        android:textSize="14sp"
+                        tools:text="Videos (13)"/>
+
+                <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:focusable="true"
+                        android:foreground="?android:selectableItemBackground">
+
+                    <ImageView
+                            android:id="@+id/tv_details.video_preview"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerInside"
+                            tools:ignore="ContentDescription"/>
+
+                    <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_gravity="center"
+                            android:alpha="0.8"
+                            app:srcCompat="@drawable/ic_play_circle_filled_white_36px"
+                            tools:ignore="ContentDescription"/>
+                </FrameLayout>
+            </LinearLayout>
+
             <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"

@@ -27,6 +27,7 @@
     <string name="title_activity_search">検索</string>
     <string name="title_activity_settings">設定</string>
     <string name="title_activity_about">アプリについて</string>
+    <string name="title_activity_videos">ビデオ</string>
 
     <string name="menu_item_update">更新</string>
 
@@ -55,6 +56,7 @@
     <string name="details_budget_revenue_title">予算と収入</string>
     <string name="details_born_title">誕生</string>
     <string name="details_died_title">死去</string>
+    <string name="details_video_title">ビデオ (%d)</string>
 
     <!-- Preferences strings -->
     <string name="pref_title_app_language">アプリの言語</string>

@@ -27,6 +27,7 @@
     <string name="title_activity_search">Suche</string>
     <string name="title_activity_settings">Einstellungen</string>
     <string name="title_activity_about">Über</string>
+    <string name="title_activity_videos">Videos</string>
 
     <string name="menu_item_update">Aktualisieren</string>
 
@@ -55,6 +56,7 @@
     <string name="details_budget_revenue_title">Budget und Einnahmen</string>
     <string name="details_born_title">Geboren</string>
     <string name="details_died_title">Gestorben</string>
+    <string name="details_video_title">Videos (%d)</string>
 
     <!-- Preferences strings -->
     <string name="pref_title_app_language">App-Sprache</string>

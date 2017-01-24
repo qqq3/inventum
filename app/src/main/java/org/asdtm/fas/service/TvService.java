@@ -2,6 +2,7 @@ package org.asdtm.fas.service;
 
 import org.asdtm.fas.model.TV;
 import org.asdtm.fas.model.TVResults;
+import org.asdtm.fas.model.VideoResults;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
@@ -12,6 +13,13 @@ public interface TvService {
 
     @GET("tv/{tv_id}")
     Call<TV> tvDetails(
+            @Path("tv_id") String id,
+            @Query("api_key") String api_key,
+            @Query("language") String lang
+    );
+
+    @GET("tv/{tv_id}/videos")
+    Call<VideoResults> tvVideos(
             @Path("tv_id") String id,
             @Query("api_key") String api_key,
             @Query("language") String lang

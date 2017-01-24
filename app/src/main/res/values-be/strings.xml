@@ -28,6 +28,7 @@
     <string name="title_activity_search">Пошук</string>
     <string name="title_activity_settings">Налады</string>
     <string name="title_activity_about">Аб дадатку</string>
+    <string name="title_activity_videos">Відэа</string>
 
     <string name="menu_item_update">Абнавіць</string>
 
@@ -55,6 +56,7 @@
     <string name="details_born_title">Дата нараджэння</string>
     <string name="details_died_title">Дата смерці</string>
     <string name="details_network_title">Тэлекампанія</string>
+    <string name="details_video_title">Відэа (%d)</string>
 
     <!-- Preferences strings -->
     <string name="pref_title_app_language">Мова праграмы</string>

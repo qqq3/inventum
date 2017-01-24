@@ -18,26 +18,32 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.iarcuschin.simpleratingbar.SimpleRatingBar;
 import com.squareup.picasso.Picasso;
 
 import org.asdtm.fas.InventumContextWrapper;
-import org.asdtm.fas.util.Constants;
 import org.asdtm.fas.R;
-import org.asdtm.fas.service.ServiceGenerator;
 import org.asdtm.fas.model.Movie;
+import org.asdtm.fas.model.Video;
+import org.asdtm.fas.model.VideoResults;
 import org.asdtm.fas.provider.MovieContract;
 import org.asdtm.fas.service.MovieService;
+import org.asdtm.fas.service.ServiceGenerator;
 import org.asdtm.fas.util.AppUtils;
+import org.asdtm.fas.util.Constants;
 import org.asdtm.fas.util.ContentValuesUtils;
 import org.asdtm.fas.util.PrefUtils;
 import org.asdtm.fas.util.StringUtils;
 
+import java.util.List;
+
 import butterknife.BindDrawable;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import fr.castorflex.android.smoothprogressbar.SmoothProgressBar;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -76,6 +82,9 @@ public class MovieDetailsActivity extends AppCompatActivity {
     @BindView(R.id.rating_vote_average) TextView voteAverageView;
     @BindView(R.id.rating_vote_count) TextView voteCountView;
     @BindView(R.id.progressBar) SmoothProgressBar progressBar;
+    @BindView(R.id.movie_details_video_layout_root) LinearLayout videoLayout;
+    @BindView(R.id.movie_details_video_preview) ImageView videoPreview;
+    @BindView(R.id.movie_details_video_title) TextView videoTitle;
 
     @Override
     protected void attachBaseContext(Context base) {
@@ -174,6 +183,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
             ratingBar.setRating(voteAverageFlt);
             voteAverageView.setText(String.valueOf(voteAverageFlt));
             voteCountView.setText(String.valueOf(voteCountInt));
+            loadVideoPreview();
         }
     }
 
@@ -231,6 +241,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
                     ratingBar.setRating(movie.getVoteAverage());
                     voteAverageView.setText(String.valueOf(movie.getVoteAverage()));
                     voteCountView.setText(String.valueOf(movie.getVoteCount()));
+                    loadVideoPreview();
 
                     updateProgressBar(false);
                 }
@@ -240,6 +251,33 @@ public class MovieDetailsActivity extends AppCompatActivity {
             public void onFailure(Call<Movie> call, Throwable t) {
                 Log.e(TAG, "Error", t);
                 updateProgressBar(false);
+            }
+        });
+    }
+
+    private void loadVideoPreview() {
+        String lang = PrefUtils.getFormatLocale(MovieDetailsActivity.this);
+        MovieService service = ServiceGenerator.createService(MovieService.class);
+        Call<VideoResults> call = service.movieVideos(String.valueOf(mId), ServiceGenerator.API_KEY, lang);
+        call.enqueue(new Callback<VideoResults>() {
+            @Override
+            public void onResponse(Call<VideoResults> call, Response<VideoResults> response) {
+                if (response.isSuccessful()) {
+                    List<Video> videos = response.body().getVideos();
+                    if (!videos.isEmpty()) {
+                        Picasso.with(MovieDetailsActivity.this)
+                                .load(String.format(Constants.YOUTUBE_THUMBNAIL_URL, videos.get(0).getKey()))
+                                .fit().centerCrop()
+                                .into(videoPreview);
+                        videoTitle.setText(getString(R.string.details_video_title, videos.size()));
+                        videoLayout.setVisibility(View.VISIBLE);
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<VideoResults> call, Throwable t) {
+                Log.e(TAG, "Error loading video preview", t);
             }
         });
     }
@@ -295,5 +333,11 @@ public class MovieDetailsActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @OnClick(R.id.movie_details_video_layout_root)
+    void openVideosActivity() {
+        Intent intent = VideosActivity.newIntent(MovieDetailsActivity.this, VideosActivity.TYPE_MOVIES, mId);
+        startActivity(intent);
     }
 }

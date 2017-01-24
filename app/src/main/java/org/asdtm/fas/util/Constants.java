@@ -18,6 +18,9 @@ public class Constants {
 
     public static final String IMDB_MOVIE_URL = "http://www.imdb.com/title/%s";
     public static final String IMDB_PERSON_URL = "http://www.imdb.com/name/%s";
+    public static final String YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v=%1$s";
+    public static final String YOUTUBE_EMBED_VIDEO_URL = "https://www.youtube.com/embed/%1$s";
+    public static final String YOUTUBE_THUMBNAIL_URL = "https://img.youtube.com/vi/%1$s/0.jpg";
 
     public static final String TV_STATUS_ENDED = "Ended";
 

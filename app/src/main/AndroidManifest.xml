@@ -85,6 +85,14 @@
             </intent-filter>
         </activity>
 
+        <activity
+                android:name=".activity.VideosActivity"
+                android:label="@string/title_activity_videos"
+                android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+                android:name=".activity.VideoActivity"
+                android:theme="@style/AppTheme.NoActionBar"/>
 
         <provider
                 android:name="org.asdtm.fas.provider.MovieProvider"

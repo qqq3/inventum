@@ -18,6 +18,8 @@
     <string name="pref_title_app_language">App Język</string>
     <string name="restart_dialog_message">Proszę ponownie uruchomić aplikację, aby zastosować noweustawienia</string>
     <string name="search_hint">Szukaj</string>
+
+    <!-- Activity Titles -->
     <string name="title_activity_settings">Ustawienia</string>
     <string name="title_activity_tv">Seriale</string>
     <string name="title_activity_search">Szukaj</string>
@@ -25,6 +27,8 @@
     <string name="title_activity_home">Dom</string>
     <string name="title_activity_discover">Odkrywaj</string>
     <string name="title_activity_about">Na aplikacji</string>
+    <string name="title_activity_videos">Filmy</string>
+
     <string name="pref_summary_cache_size">Rozmiar Cache % .2fMB</string>
     <string name="nav_menu_feedback">Kontakt</string>
     <string name="nav_menu_discover">Odkrywaj</string>
@@ -50,6 +54,8 @@
     <string name="details_died_title">Data śmierci</string>
     <string name="details_budget_title">Budżet ........................................................................................... .................................</string>
     <string name="details_budget_revenue_title">Budżet i przychody</string>
+    <string name="details_video_title">Filmy (%d)</string>
+
     <string name="top_rated">Najlepiej oceniane</string>
     <string name="now_playing">Obecnie w kinach</string>
     <string name="airing_today">Dzisiaj w tv</string>
