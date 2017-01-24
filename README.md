@@ -9,6 +9,7 @@ Simple client for [TMDb](http://themoviedb.org/)
 * Different languages: system, English, Spanish, German, Polish, Belarusian, Russian
 * Movies: Top rated, Upcoming, Now playing, Popular
 * TV shows: Airing today, On the air, Popular, Top rated
+* Movie and TV trailers
 
 ### Movie Features
 * Search: Search for movies with a text query
@@ -24,6 +25,10 @@ Simple client for [TMDb](http://themoviedb.org/)
 [<img src="http://i.imgur.com/mlX4WOi.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/mlX4WOi.png)
 [<img src="http://i.imgur.com/kCe493M.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/kCe493M.png)
 [<img src="http://i.imgur.com/Q85Cqcl.png" alt="Inventum preview" width="200"/>](http://i.imgur.com/Q85Cqcl.png)
+
+## Donations
+If you would like to help, you can donate Bitcoin on ```1FV8m1MKqZ9ZKB8YNwpsjsuubHTznJSiT8``` address.
+Thanks!
 
 ## License
 ```
