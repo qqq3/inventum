@@ -44,23 +44,23 @@
     <!-- Details activity strings -->
     <string name="details_runtime">%1$sh %2$sm</string>
     <string name="details_episode_runtime">%sm</string>
-    <string name="details_rating_title">TMDb taksado</string>
+    <string name="details_rating_title">Takso je TMDb</string>
     <string name="details_facts_title">Faktoj</string>
     <string name="details_release_date_title">Unua spektaklo je</string>
     <string name="details_status_title">Stato</string>
     <string name="details_network_title">Reto</string>
-    <string name="details_imdb_page_title">Paĝe je IMDb</string>
-    <string name="detail_homepage_title">ĈEfpaĝo</string>
+    <string name="details_imdb_page_title">Paĝo je IMDb</string>
+    <string name="detail_homepage_title">Ĉefpaĝo</string>
     <string name="details_budget_title">Buĝeto.............................................................................................................................</string>
     <string name="details_revenue_title">Enspezo..........................................................................................................................</string>
     <string name="details_budget_revenue_title">Buĝeto kaj enspezo</string>
     <string name="details_born_title">Naskiĝis</string>
     <string name="details_died_title">Mortis</string>
-    <string name="details_video_title">Filemtoj (%d)</string>
+    <string name="details_video_title">Filmetoj (%d)</string>
 
     <!-- Preferences strings -->
     <string name="pref_title_app_language">Aplikaĵa lingvo</string>
-    <string name="pref_title_movies_language">Filmaj lingvoj</string>
+    <string name="pref_title_movies_language">Filma lingvo</string>
     <string name="pref_title_clear_cache">Vakigi kaŝmemoron de bildoj</string>
     <string name="pref_title_about">Pri</string>
     <string name="pref_summary_cache_size">Kaŝmemora grando %.2fMB</string>
