@@ -6,6 +6,7 @@
         <item name="german">Deutsch</item>
         <item name="english">English</item>
         <item name="spanish">Español(España)</item>
+        <item name="esperanto">Esperanto</item>        
         <item name="japanese">日本語</item>
         <item name="polish">Polski</item>
         <item name="russian">Русский</item>
@@ -16,6 +17,7 @@
         <item name="german">de_DE</item>
         <item name="english">en_GB</item>
         <item name="spanish">es_ES</item>
+        <item name="esperanto">eo</item>
         <item name="japanese">ja_JP</item>
         <item name="polish">pl_PL</item>
         <item name="russian">ru_RU</item>
